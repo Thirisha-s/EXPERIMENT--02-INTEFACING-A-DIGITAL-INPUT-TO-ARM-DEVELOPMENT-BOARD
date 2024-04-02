@@ -59,6 +59,7 @@ The full form of an ARM is an advanced reduced instruction set computer (RISC) m
 
 ## STM 32 CUBE PROGRAM :
 ```python
+
 #include "main.h"
 #include<stdbool.h>
 void push_button();
@@ -150,8 +151,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 {
   
 }
-#endif /* USE_FULL_ASSERT */
-
+#endif
 ```
 ## Output  :
  ![WhatsApp Image 2024-03-12 at 15 55 12_852b3f2a](https://github.com/Thirisha-s/EXPERIMENT--02-INTEFACING-A-DIGITAL-INPUT-TO-ARM-DEVELOPMENT-BOARD/assets/120380280/96af6e14-6073-43fa-acf9-ea3eb8e0ee26)
